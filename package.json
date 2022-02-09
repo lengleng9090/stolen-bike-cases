@@ -1,0 +1,23 @@
+{
+  "name": "stolen-bike-cases",
+  "version": "1.0.0",
+  "description": "This is Node.js challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "env-cmd -f ./config/dev.env nodemon src/app.js"
+  },
+  "author": "Thanapat L.",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.15.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
